@@ -9,4 +9,4 @@ elseif ($income > 20000 && $income <= 50000) $nalog = 2000 + ($income - 20000) *
 elseif ($income > 50000) $nalog = 6500 + ($income - 50000) * 20/100;
 
 echo "Nalog: ".$nalog;
-?>
+
